@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most extraordinary Recipe Website">
+    <meta name="keyword" content="food, Healty, everyone can cook">
+    <script src="https://kit.fontawesome.com/3bd466660b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@200&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Gubuk_Resep | Java_Script</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html"><i class="fa-regular fa-face-smile fa-1.5x"></i></a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Masakan.html">Masakan</a></li>
+                    <li><a href="Minuman.html">Minuman</a></li>
+                    <li><a href="Herbal.html">Herbal</a></li>
+                    <li><a class="current" href="Kalender.html">Kalender</a></li>
+                    <li><a href="Bio.html">Biografi</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="kalender">
+        <div class="wrapper">
+            <header>
+                <p class="current-date"></p>
+                <div class="icons">
+                    <i id="prev" class="material-icons">chevron_left</i>
+                    <i id="next" class="material-icons">chevron_right</i>
+                </div>
+            </header>
+            <div class="calendar">
+                <ul class="weeks">
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tue</li>
+                    <li>Wed</li>
+                    <li>Thu</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                </ul>
+                <ul class="days"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <section id="testimonials-kalender" class="py-3">
+        <div class="container">
+            <h2 class="l-heading">Event Terdekat</h2>
+            <div class="testimonial bg-light">
+                <img src="./img/tahun_baru islam.jpg" alt="Kopi Joss">
+                <h3>Tahun <span class="text-herbal">Baru</span></h3>
+                <p>Tahun baru adalah hari permulaan tahun di mana dilakukan suatu budaya merayakan berakhirnya masa satu tahun dan menandai dimulainya hitungan tahun selanjutnya. Budaya yang mempunyai kalender tahunan semuanya mempunyai perayaan tahun baru.</p>
+            </div>
+
+            <div class="testimonial bg-light">
+                <img src="./img/tahun_baru islam.jpg" alt="">
+                <h3>Tahun Ba<span class="text-herbal">ru Islam</span></h3>
+                <p>Tahun Baru Hijriah atau Tahun Baru Islam merupakan suatu hari yang penting bagi umat Islam karena menandai peristiwa penting yang terjadi dalam sejarah Islam yaitu memperingati penghijrahan Nabi Muhammad SAW. dari Kota Makkah ke Madinah pada tahun 622 Masehi. </p>
+            </div>
+
+            <div class="testimonial bg-light">
+                <img src="./img/tahun_baru islam.jpg"Mie Aceh">
+                <h3>Isra'<span class="text-herbal"> mi'raj</span></h3>
+                <p>Isra Miraj biasanya diperingati atau rayakan setiap 27 Rajab yang merupakan bulan ke-7 dalam kalender Islam. Isra Miraj ini juga menjadi perjalanan spiritual Rasulullah SAW dari Masjidil Haram menuju Masjidil Aqsha. Kemudian, Rasulullah SAW naik ke surga untuk memperoleh perintah salat lima waktu oleh Allah SWT.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+
+    <footer id="main-footer">
+        <p>Gubuk_Resep &copy; 2022, All Right Reserved</p>
+    </footer>
+</body>
+
+</html>
